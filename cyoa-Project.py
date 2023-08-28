@@ -26,3 +26,4 @@ if Dec1.lower() == 'y':
 else:
    print(f'You decided that stealing may either be too risky or too much trouble. Though Megabosses usually don\'t care about the going-ons of the tribe members, the big race is much too important to the tribe. You may lose your SpeedWagon altogether and your place among the Megaboss\'s chosen drivers.')
 
+   print(f'After you go over your SpeedWagon, you are confident in it\'s state and begin to close up shop.')
