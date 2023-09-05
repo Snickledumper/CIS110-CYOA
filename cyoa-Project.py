@@ -77,4 +77,4 @@ while playAgain.lower() == 'y':
  #make a loop to ask if the user wants to play again
     playAgain = input(f'Would you like to play again? y or n: ')
     while playAgain.lower() not in [ 'y' , 'n']:
-        playAgain = input(f'Invalid choice, please input y or n')
+        playAgain = input(f'Invalid choice, please input y or n: ')
