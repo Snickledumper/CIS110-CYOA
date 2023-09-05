@@ -62,7 +62,7 @@ while playAgain.lower() == 'y':
         print()
         print(f'With their engine roaring and the Waaaagh screaming in their hearts, the Orks began to tear down the wasteland, zealously firing all their weaponry and explosives at the enemy.\n{pName} emerges from the wreckage and fires alive, pistons firing on all cylinders, and tears down the wasteland, reaching the wreckage.\nThey find the goldmine. {loot} is found within the wreckage and you fire a flare, lighting up the sky in {tName}\'s {tColor} hue. You find the favor of the Megaboss and are promoted to the higher circle as the Megaboss\'s right hand.')
  #Outcome 2 if answer to Decision 1 is y but 2 is n
-    if Dec1.lower() == 'y' and Dec1.lower() == 'n':
+    if Dec1.lower() == 'y' and Dec2.lower() == 'n':
         print()
         print(f'You and your surviving biker fight hard as you can, but whether your rage wasn\'t hot enough or your Speedwagon wasn\'t running as hard, your vehicles begin to fail and your wagon begins to swing into a slide, almost tipping over into a roll but you come to a dead stop. You didn\'t win, but worse yet, you didn\'t die. You\'re alive with the realization that you failed your megaboss and your tribe. Being demoted into a laboring peon is the best case scenario, but you lost the great race. You just might be exiled from the tribes and subjected to a lonely path of the wasteland.')
  #Outcome 2 if answers to Decision 1 is n but 2 is y
